@@ -32,11 +32,7 @@ const parent = React.createElement(
       [
         //h1 and h2 tags are siblings, both being children of child2
         React.createElement("h1", {}, "Hello, Parcel and React"),
-        React.createElement(
-          "h2",
-          {},
-          "Hello, h2 tag using React in a nested div child-2"
-        ),
+        React.createElement("h2", {}, "Hello, h2 tag using parcel cache check"),
       ]
     ),
   ]
