@@ -5,10 +5,14 @@ const Title = () => {
   return <h1 className="title">This is Title</h1>;
 };
 
+const number = 9321;
+
 const Heading = () => {
   return (
     <div>
       <Title />
+      {number + number}
+
       <h2> This is Heading</h2>
       <p>Writing Functional React Components</p>
     </div>
