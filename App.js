@@ -9,7 +9,10 @@ const elem = <p>It is an element</p>;
 const Heading = () => {
   return (
     <div>
+      {/* three ways to render components */}
+      <Title></Title>
       <Title />
+      {Title()}
       <h2> This is Heading</h2>
       <p>Writing Functional React Components</p>
       {elem}
