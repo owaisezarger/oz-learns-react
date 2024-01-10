@@ -1,8 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//JSX is HTML like syntax
-const jsxHeading = <h1>JSX</h1>;
-// console.log(jsxHeading); returns object
+const Title = () => {
+  return <h1 className="title">This is Title</h1>;
+};
+
+const Heading = () => {
+  return (
+    <div>
+      <Title />
+      <h2> This is Heading</h2>
+      <p>Writing Functional React Components</p>
+    </div>
+  );
+};
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(<Heading />);
